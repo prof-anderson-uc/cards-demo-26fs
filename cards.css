@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #dddddd;
+}
+
+/* HEADER STYLES
+   ========================= */
+header {
+  background-color: #eaf1f8;
+  border-bottom: 1px solid #dddddd;
+  padding: 1rem 2rem; /* space inside the header */
+  display: flex; /* puts name and nav side by side */
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem; /* space between flex items */
+}
+
+header h1 {
+  font-size: 150%;
+  font-weight: bold;
+  color: #1d3557;
+}
+
+nav ul {
+  list-style: none; /* removes bullet points */
+  display: flex; /* puts list items in a row */
+  gap: 1.5rem; /* space between links */
+}
+
+nav a {
+  text-decoration: none; /* removes underlines */
+  color: #1d3557;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #4a84a8; /* color when hovering */
+}
+
+
+/* MAIN CONTENT AREA
+   ========================= */
+main {
+  background-color: white;
+  line-height: 1.4; /* space between lines of text */
+  padding: 1rem 2rem;
+  max-width: 1024px; /* limits width */
+  margin: 0 auto; /* centers horizontally */
+}
+
+
+/* INTRO SECTION
+   ========================= */
+.intro-section {
+  padding-bottom: 2rem;
+  font-size: 1.25rem;
+}
+
+.intro-section h2 {
+  font-size: 2rem;
+  color: #1d3557;
+  border-bottom: 1px solid silver;
+  margin-bottom: 0.75rem;
+}
+
+.intro-section p {
+  margin-bottom: 1rem;
+}
+
+
+/* FEATURE CARDS SECTION
+   ========================= */
+/* CSS Grid places the cards into columns */
+.card-grid {
+  
+}
+
+.card {
+  
+
+  /* keeps the cards consistent in height */
+  
+}
+
+.card-title {
+
+}
+
+.card-icon {
+   /* size of icons */
+  
+}
+
+.card h3 {
+  
+}
+
+.card p {
+  
+}
+
+
+
+/* CALL TO ACTION SECTION
+   ========================= */
+.cta-section {
+  
+}
+
+.cta-section h2 {
+  
+}
+
+.cta-section p {
+  
+}
+
+.cta-button {
+  
+}
+
+.cta-button:hover {
+  
+}
+
+
+
+/* FOOTER
+   ========================= */
+footer {
+  font-size: 80%;
+  background-color: #1d3557;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+
+/* RESPONSIVE MEDIA QUERIES
+   ========================= */
+@media (max-width: ) {
+  header {
+    
+  }
+
+  .card-grid {
+    
+  }
+
+}
